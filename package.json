@@ -1,0 +1,29 @@
+{
+  "name": "productivity-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:setup": "node scripts/setup-db.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "next": "14.2.29",
+    "react": "^18",
+    "react-dom": "^18",
+    "drizzle-orm": "^0.41.0",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.511.0",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "drizzle-kit": "^0.31.1",
+    "typescript": "^5"
+  }
+}
